@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.pulseb:hover {
+  animation: pulseb 1.5s infinite;
+  -webkit-animation: pulseb 1.5s infinite;
+}
+
+@keyframes pulseb {
+  0% {
+    box-shadow: 0 0 0 0 rgba(9, 121, 232, 0.877);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(66, 153, 225, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(66, 153, 225, 0);
+  }
+}

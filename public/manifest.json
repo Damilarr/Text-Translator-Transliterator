@@ -1,0 +1,19 @@
+{
+  "name": "Text Translator/Transliterator",
+  "description": "Text Translator/Transliteratoris a Chrome extension designed to assist users in translating and transliterating text. With a simple and intuitive interface, it allows users to easily convert text from one language to another, or to change text from one script to another. This tool is particularly useful for individuals who frequently interact with foreign languages or scripts, providing a seamless and efficient translation/transliteration experience right in your browser",
+  "version": "1.0.1",
+  "manifest_version": 3,
+  "action": {
+    "default_icon": {
+      "16": "favicon16.png",
+      "32": "favicon32.png"
+    },
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "favicon16.png",
+    "32": "favicon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
